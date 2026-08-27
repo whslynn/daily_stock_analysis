@@ -128,6 +128,10 @@ from api.v1.schemas.decision_signals import (
     DecisionSignalProfileCalibrationBucket,
     DecisionSignalStatusUpdateRequest,
 )
+from api.v1.schemas.entity_link import (
+    EntityAction,
+    EntityLink,
+)
 
 __all__ = [
     # common
@@ -242,4 +246,7 @@ __all__ = [
     "DecisionSignalProfileCalibrationBreakdowns",
     "DecisionSignalProfileCalibrationBucket",
     "DecisionSignalStatusUpdateRequest",
+    # entity link
+    "EntityAction",
+    "EntityLink",
 ]
