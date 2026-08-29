@@ -8607,7 +8607,10 @@
             "enum": [
               "cn",
               "hk",
-              "us"
+              "us",
+              "jp",
+              "kr",
+              "tw"
             ],
             "title": "Market"
           },
