@@ -47,6 +47,13 @@ from api.v1.schemas.backtest import (
     BacktestResultsResponse,
     PerformanceMetrics,
 )
+from api.v1.schemas.calendar_events import (
+    CalendarCoverageSummary,
+    CalendarEventCreateRequest,
+    CalendarEventDeleteResponse,
+    CalendarEventItem,
+    CalendarEventListResponse,
+)
 from api.v1.schemas.system_config import (
     SystemConfigFieldSchema,
     SystemConfigCategorySchema,
@@ -165,6 +172,12 @@ __all__ = [
     "BacktestResultItem",
     "BacktestResultsResponse",
     "PerformanceMetrics",
+    # calendar events
+    "CalendarCoverageSummary",
+    "CalendarEventCreateRequest",
+    "CalendarEventDeleteResponse",
+    "CalendarEventItem",
+    "CalendarEventListResponse",
     # system config
     "SystemConfigFieldSchema",
     "SystemConfigCategorySchema",
